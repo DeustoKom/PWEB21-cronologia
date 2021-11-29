@@ -7,7 +7,7 @@ Para crear tu propia cronología, necesitarás:
 - [Una cuenta de GitHub](https://github.com/join)
 - Un editor de texto plano. Puedes usar [Sublime Text](https://www.sublimetext.com/) o [Atom](https://atom.io/) (ambos son gratuitos)
 - Un editor de hojas de cálculo (como [LibreOffice](https://www.libreoffice.org/) Calc &mdash; en lugar de Microsoft Excel, mucho menos conveniente para lo que necesitamos)
-- El archivo [grupo0.zip](../../blob/main/grupo0.zip). 
+- El archivo [grupo0.zip](../../raw/main/grupo0.zip). 
 
 ## Instrucciones
 
