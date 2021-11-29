@@ -11,9 +11,9 @@ Para crear tu propia cronología, necesitarás:
 
 ## Instrucciones
 
-1. Extrae el archivo `grupo0.zip` en tu ordenador y renombra la carpeta `group0` para que contenga vuestro número de grupo.
+1. Extrae el archivo `grupo0.zip` en tu ordenador y renombra la carpeta `grupo0` para que contenga vuestro número de grupo.
 2. Abre el archivo `index.html` de esa carpeta con un editor de texto plano (Sublime Text o Atom), y sigue las siguientes instrucciones: 
-    - Escribe el título de tu cronología en la etiqueta `title`, en la línea 7
+    - Escribe el título de tu cronología en la etiqueta `<title>`, en la línea 7
     - Escoge la combinación de fuentes tipográficas que quieres usar y cambia `default` al nombre correspondiente, en la línea 18  
       ![Font pairs](timelinejs-fonts-small.png)
     - Guarda los cambios cuando hayas acabado
@@ -30,7 +30,7 @@ Para crear tu propia cronología, necesitarás:
 7. Incrusta tu cronología en la página del sitio web de vuestro proyecto correspondiente usando este código (reemplaza `grupo0` con el nombre de vuestra carpeta):  
    `<iframe src="https://deustokom.github.io/PWEB21-cronologia/grupo0/" style="width:100%;min-width:920px;min-height:600px;" frameborder="0"></iframe>`
 
-You will find video versions of these instructions in ALUD.
+<!-- You will find video versions of these instructions in ALUD. -->
 
 ---
 
