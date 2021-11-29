@@ -1,37 +1,37 @@
-# MSGW Project deliverable 4: timeline
+# PWEB: cronología
 
-To create your own timeline for this project deliverable, you will need:
+Para crear tu propia cronología, necesitarás:
 
-## Ingredients
+## Ingredientes
 
-- [A GitHub account](https://github.com/join)
-- A plain text editor. You can try [Sublime Text](https://www.sublimetext.com/3) or [Atom](https://atom.io/) (both are free)
-- A spreadsheet editor (like [LibreOffice](https://www.libreoffice.org/) Calc &mdash; instead of Microsoft Excel, much more inconvenient for what we need)
-- The [group0.zip](../../blob/master/group0.zip) file. 
+- [Una cuenta de GitHub](https://github.com/join)
+- Un editor de texto plano. Puedes usar [Sublime Text](https://www.sublimetext.com/) o [Atom](https://atom.io/) (ambos son gratuitos)
+- Un editor de hojas de cálculo (como [LibreOffice](https://www.libreoffice.org/) Calc &mdash; en lugar de Microsoft Excel, mucho menos conveniente para lo que necesitamos)
+- El archivo [grupo0.zip](../../blob/master/grupo0.zip). 
 
-## Instructions
+## Instrucciones
 
-1. Extract `group0.zip` in your computer and rename the folder `group0` to include your group number.
-2. Open the `index.html` file from that folder with a plain-text editor (Sublime Text or Atom), and follow the instructions there: 
-    - Give a title to your timeline in the `title` tag, in line 7
-    - Choose the font pair you want to use and change `default` to the corresponding name, in line 18
+1. Extrae el archivo `grupo0.zip` en tu ordenador y renombra la carpeta `group0` para que contenga vuestro número de grupo.
+2. Abre el archivo `index.html` de esa carpeta con un editor de texto plano (Sublime Text o Atom), y sigue las siguientes instrucciones: 
+    - Escribe el título de tu cronología en la etiqueta `title`, en la línea 7
+    - Escoge la combinación de fuentes tipográficas que quieres usar y cambia `default` al nombre correspondiente, en la línea 18
       ![Font pairs](timelinejs-fonts-small.png)
-    - Save it when you are finished
-3. Upload the whole folder to [the `docs` folder in the GitHub repository](/docs): just drag and drop the folder to the browser window. Write a descriptive commit message (like "First upload of group0 folder", with your group number instead of 0, for example). Make sure ![](commit-master.png) is selected, and click "Commit changes".
-    - Now your timeline, although empty, is uploaded and accesible online through `https://deustodatacom.github.io/MSGW-timeline/group0` (change `0` with your group number or `group0` with your folder name).
-4. You create your own timeline by editing the `timeline-data.csv` file in your spreadsheet editor (preferably LibreOffice Calc):
-    - Open the file, making sure you specify character set to `UTF-8`. 
-    - Add one line for each event you want to show in your timeline. For more information, see:
-        + The sample timeline about [women in computing](https://lab.deustokom.news/MSGW-timeline/women-computing/), where you can see different slide types in action
-        + A description of what should go in each column in ["Making a timeline from a spreadsheet"](https://timeline.knightlab.com/docs/using-spreadsheets.html), in the official TimelineJS library website  
-        + A list of the different [media types](https://timeline.knightlab.com/docs/media-types.html) you can use in the `media` column 
-    - Save the file, making sure you do so in `.csv` format
-6. Upload to the site by drag and drop: open the corresponding folder in your web browser and drag and drop the csv file from your file explorer; write a descriptive commit message (like "Added pictures to some slides"), make sure ![](commit-master.png) is selected, and click "Commit changes". 
-7. Create a post on [the subject website](https://msgw.deusto.es/). Write a brief descriptive paragraph and embed this timeline by using this code in a "Custom HTML" block (change `group0` with your folder name):
-   `<iframe src="https://lab.deustokom.news/MSGW-timeline/group0/" style="width:100%;min-width:920px;min-height:600px;" frameborder="0"></iframe>`
+    - Guarda los cambios cuando hayas acabado
+3. Sube la carpeta completa al [directorio `docs` en el repositorio GitHub](/docs): solo arrastra la carpeta desde tu explorador de archivos a la ventana del navegador. Escribe un mensaje de confirmación \(_commit_\) descriptivo (como "Primera versión del directorio grupo0", con tu número de grupo en vez de 0, por ejemplo). Asegúrate de que ![](commit-master.png) está seleccionado, y haz clic en "Commit changes".
+    - Ahora tu cronología, aunque vacía, está subida y accesible en línea a través de `https://deustokom.github.io/PWEB21-cronologia/grupo0/` (cambia `0` por tu número de grupo o `group0` por el nombre de tu carpeta).
+4. Puedes crear tu propia cronología editando el archivo `timeline-data.csv` en tu editor de hojas de cálculo (preferiblemente LibreOffice Calc):
+    - Abre el archivo, y asegúrate de especificar la codificación de caracteres a `UTF-8`. 
+    - AAñade una líena por cada evento que quieras mostrar en tu cronología. Para más información, puedes consultar:
+        + La cronología de muestra [women in computing](https://deustokom.github.io/PWEB21-cronologia/women-computing/), donde puedes ver los diferentes tipos de contenidos en acción
+        + Una descripción de lo que debería ir en cada columna en ["Making a timeline from a spreadsheet"](https://timeline.knightlab.com/docs/using-spreadsheets.html), en el sitio web oficial de la librería TimelineJS 
+        + Una lista de los diferentes [tipos de medios](https://timeline.knightlab.com/docs/media-types.html) que puedes usar en la columna `media`  
+    - Guarda el archivo, asegurándote de que lo haces en formato `.csv`
+6. Sube el archivo a GitHub arrastrándoloe: abre la carpeta correspondiente en tu navegador y arrastra el archivo csv desde tu explorador de archivos; escribe un mensaje de confirmación \(_commit_\) descriptivo (como "Imágenes añadidas a algunos eventos"), comprueba que ![](commit-master.png) está seleccionado y haz clic en "Commit changes". 
+7. Incrusta tu cronología en la página del sitio web de vuestro proyecto correspondiente usando este código (reemplaza `grupo0` con el nombre de vuestra carpeta):
+   `<iframe src="https://deustokom.github.io/PWEB21-cronologia/grupo0/" style="width:100%;min-width:920px;min-height:600px;" frameborder="0"></iframe>`
 
 You will find video versions of these instructions in ALUD.
 
 ---
 
-Based on [heoinfo/timelinejs-local](https://github.com/heoinfo/timelinejs-local) and [NUKnightLab/TimelineJS3](https://timeline.knightlab.com/) 
+Basado en [heoinfo/timelinejs-local](https://github.com/heoinfo/timelinejs-local) y [NUKnightLab/TimelineJS3](https://timeline.knightlab.com/).
